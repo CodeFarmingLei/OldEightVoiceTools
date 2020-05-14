@@ -282,16 +282,6 @@ namespace 老八语音包工具 {
         }
         
         /// <summary>
-        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
-        /// </summary>
-        internal static System.Drawing.Bitmap 老八厕所二战 {
-            get {
-                object obj = ResourceManager.GetObject("老八厕所二战", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
         ///   查找类似于 System.IO.MemoryStream 的 System.IO.UnmanagedMemoryStream 类型的本地化资源。
         /// </summary>
         internal static System.IO.UnmanagedMemoryStream 老八厕所二战语录 {

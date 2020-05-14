@@ -62,43 +62,57 @@
             this.groupBoxControl = new System.Windows.Forms.GroupBox();
             this.labelEmm = new System.Windows.Forms.Label();
             this.buttonStop = new System.Windows.Forms.Button();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.groupBoxCopyright = new System.Windows.Forms.GroupBox();
-            this.labelCopyright = new System.Windows.Forms.Label();
-            this.groupBoxMaterial = new System.Windows.Forms.GroupBox();
-            this.pictureBoxMaterialimg2 = new System.Windows.Forms.PictureBox();
-            this.labelMaterialTxt2 = new System.Windows.Forms.Label();
-            this.pictureBoxMaterialimg1 = new System.Windows.Forms.PictureBox();
-            this.labelMaterialTxt1 = new System.Windows.Forms.Label();
-            this.groupBoxDeveloper = new System.Windows.Forms.GroupBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.labelDeveloper = new System.Windows.Forms.Label();
             this.labelHR = new System.Windows.Forms.Label();
             this.statusStripTip = new System.Windows.Forms.StatusStrip();
+            this.toolStripStatusLabelTip = new System.Windows.Forms.ToolStripStatusLabel();
             this.toolStripStatusLabelTip2 = new System.Windows.Forms.ToolStripStatusLabel();
-            this.groupBoxHelp = new System.Windows.Forms.GroupBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.toolStripMain = new System.Windows.Forms.ToolStrip();
+            this.groupBoxVideo = new System.Windows.Forms.GroupBox();
+            this.buttonVideo4 = new System.Windows.Forms.Button();
+            this.buttonVideo3 = new System.Windows.Forms.Button();
+            this.buttonVideo2 = new System.Windows.Forms.Button();
+            this.buttonVideo1 = new System.Windows.Forms.Button();
+            this.toolStripDropDownButton1 = new System.Windows.Forms.ToolStripDropDownButton();
+            this.退出ToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripSeparator5 = new System.Windows.Forms.ToolStripSeparator();
+            this.toolStripButton2 = new System.Windows.Forms.ToolStripButton();
+            this.toolStripSeparator6 = new System.Windows.Forms.ToolStripSeparator();
+            this.toolStripButton3 = new System.Windows.Forms.ToolStripButton();
+            this.toolStripSeparator7 = new System.Windows.Forms.ToolStripSeparator();
+            this.toolStripButton4 = new System.Windows.Forms.ToolStripButton();
             this.toolStripButtonTop = new System.Windows.Forms.ToolStripButton();
             this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
             this.toolStripButton1 = new System.Windows.Forms.ToolStripDropDownButton();
+            this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
+            this.toolStripButtonHelp = new System.Windows.Forms.ToolStripButton();
+            this.toolStripSeparator3 = new System.Windows.Forms.ToolStripSeparator();
+            this.toolStripButtonUpdateLog = new System.Windows.Forms.ToolStripButton();
+            this.toolStripSeparator4 = new System.Windows.Forms.ToolStripSeparator();
+            this.toolStripButtonAbout = new System.Windows.Forms.ToolStripButton();
+            this.toolStripMain = new System.Windows.Forms.ToolStrip();
+            this.toolStripButtonMain1 = new System.Windows.Forms.ToolStripDropDownButton();
             this.退出ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripSeparatorMain1 = new System.Windows.Forms.ToolStripSeparator();
+            this.toolStripButtonMain2 = new System.Windows.Forms.ToolStripButton();
+            this.toolStripSeparatorMain2 = new System.Windows.Forms.ToolStripSeparator();
+            this.toolStripButtonMain3 = new System.Windows.Forms.ToolStripButton();
+            this.toolStripSeparatorMain3 = new System.Windows.Forms.ToolStripSeparator();
+            this.toolStripButtonMain4 = new System.Windows.Forms.ToolStripButton();
+            this.toolStripSeparatorMain4 = new System.Windows.Forms.ToolStripSeparator();
+            this.toolStripButtonMainTop = new System.Windows.Forms.ToolStripButton();
+            this.toolStripSeparatorMain5 = new System.Windows.Forms.ToolStripSeparator();
+            this.buttonFilePathShow = new System.Windows.Forms.Button();
+            this.groupBoxVideoTip = new System.Windows.Forms.GroupBox();
+            this.labelVideoTip = new System.Windows.Forms.Label();
             this.groupBoxToilet.SuspendLayout();
             this.groupBoxToilet3.SuspendLayout();
             this.groupBoxToilet2.SuspendLayout();
             this.groupBoxToilet1.SuspendLayout();
             this.groupBoxHamburger.SuspendLayout();
             this.groupBoxControl.SuspendLayout();
-            this.groupBox1.SuspendLayout();
-            this.groupBoxCopyright.SuspendLayout();
-            this.groupBoxMaterial.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxMaterialimg2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxMaterialimg1)).BeginInit();
-            this.groupBoxDeveloper.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.statusStripTip.SuspendLayout();
-            this.groupBoxHelp.SuspendLayout();
+            this.groupBoxVideo.SuspendLayout();
             this.toolStripMain.SuspendLayout();
+            this.groupBoxVideoTip.SuspendLayout();
             this.SuspendLayout();
             // 
             // groupBoxToilet
@@ -110,7 +124,7 @@
             this.groupBoxToilet.Controls.Add(this.radioButtonCough);
             this.groupBoxToilet.Controls.Add(this.radioButtonCheShuo);
             this.groupBoxToilet.Cursor = System.Windows.Forms.Cursors.Default;
-            this.groupBoxToilet.Location = new System.Drawing.Point(342, 28);
+            this.groupBoxToilet.Location = new System.Drawing.Point(12, 28);
             this.groupBoxToilet.Name = "groupBoxToilet";
             this.groupBoxToilet.Size = new System.Drawing.Size(460, 218);
             this.groupBoxToilet.TabIndex = 1;
@@ -339,7 +353,6 @@
             this.radioButtonToiletOneVoice4.Name = "radioButtonToiletOneVoice4";
             this.radioButtonToiletOneVoice4.Size = new System.Drawing.Size(59, 16);
             this.radioButtonToiletOneVoice4.TabIndex = 4;
-            this.radioButtonToiletOneVoice4.TabStop = true;
             this.radioButtonToiletOneVoice4.Text = "奥利给";
             this.radioButtonToiletOneVoice4.UseVisualStyleBackColor = true;
             this.radioButtonToiletOneVoice4.Click += new System.EventHandler(this.RadioButtonToiletOneVoice4_Click);
@@ -352,7 +365,6 @@
             this.radioButtonToiletOneVoice1.Name = "radioButtonToiletOneVoice1";
             this.radioButtonToiletOneVoice1.Size = new System.Drawing.Size(119, 16);
             this.radioButtonToiletOneVoice1.TabIndex = 1;
-            this.radioButtonToiletOneVoice1.TabStop = true;
             this.radioButtonToiletOneVoice1.Text = "老八厕所大战语录";
             this.radioButtonToiletOneVoice1.UseVisualStyleBackColor = true;
             this.radioButtonToiletOneVoice1.Click += new System.EventHandler(this.RadioButtonToiletOneVoice1_Click);
@@ -365,7 +377,6 @@
             this.radioButtonToiletOneVoice3.Name = "radioButtonToiletOneVoice3";
             this.radioButtonToiletOneVoice3.Size = new System.Drawing.Size(65, 16);
             this.radioButtonToiletOneVoice3.TabIndex = 3;
-            this.radioButtonToiletOneVoice3.TabStop = true;
             this.radioButtonToiletOneVoice3.Text = "呕 原声";
             this.radioButtonToiletOneVoice3.UseVisualStyleBackColor = true;
             this.radioButtonToiletOneVoice3.Click += new System.EventHandler(this.RadioButtonToiletOneVoice3_Click);
@@ -378,7 +389,6 @@
             this.radioButtonToiletOneVoice6.Name = "radioButtonToiletOneVoice6";
             this.radioButtonToiletOneVoice6.Size = new System.Drawing.Size(35, 16);
             this.radioButtonToiletOneVoice6.TabIndex = 6;
-            this.radioButtonToiletOneVoice6.TabStop = true;
             this.radioButtonToiletOneVoice6.Text = "呕";
             this.radioButtonToiletOneVoice6.UseVisualStyleBackColor = true;
             this.radioButtonToiletOneVoice6.Click += new System.EventHandler(this.RadioButtonToiletOneVoice6_Click);
@@ -391,7 +401,6 @@
             this.radioButtonToiletOneVoice5.Name = "radioButtonToiletOneVoice5";
             this.radioButtonToiletOneVoice5.Size = new System.Drawing.Size(59, 16);
             this.radioButtonToiletOneVoice5.TabIndex = 5;
-            this.radioButtonToiletOneVoice5.TabStop = true;
             this.radioButtonToiletOneVoice5.Text = "干了!!";
             this.radioButtonToiletOneVoice5.UseVisualStyleBackColor = true;
             this.radioButtonToiletOneVoice5.Click += new System.EventHandler(this.RadioButtonToiletOneVoice5_Click);
@@ -404,7 +413,6 @@
             this.radioButtonToiletOneVoice2.Name = "radioButtonToiletOneVoice2";
             this.radioButtonToiletOneVoice2.Size = new System.Drawing.Size(101, 16);
             this.radioButtonToiletOneVoice2.TabIndex = 2;
-            this.radioButtonToiletOneVoice2.TabStop = true;
             this.radioButtonToiletOneVoice2.Text = "奥利给,干了!!";
             this.radioButtonToiletOneVoice2.UseVisualStyleBackColor = true;
             this.radioButtonToiletOneVoice2.Click += new System.EventHandler(this.RadioButtonToiletOneVoice2_Click);
@@ -430,6 +438,7 @@
             this.radioButtonCheShuo.Name = "radioButtonCheShuo";
             this.radioButtonCheShuo.Size = new System.Drawing.Size(47, 16);
             this.radioButtonCheShuo.TabIndex = 1;
+            this.radioButtonCheShuo.TabStop = true;
             this.radioButtonCheShuo.Text = "厕所";
             this.radioButtonCheShuo.UseVisualStyleBackColor = true;
             this.radioButtonCheShuo.Click += new System.EventHandler(this.RadioButtonCheShuo_Click);
@@ -440,7 +449,7 @@
             this.groupBoxHamburger.Controls.Add(this.radioButtonCucumber);
             this.groupBoxHamburger.Controls.Add(this.radioButtonPickledTofu);
             this.groupBoxHamburger.Controls.Add(this.radioButtonStinkyTofu);
-            this.groupBoxHamburger.Location = new System.Drawing.Point(342, 252);
+            this.groupBoxHamburger.Location = new System.Drawing.Point(12, 252);
             this.groupBoxHamburger.Name = "groupBoxHamburger";
             this.groupBoxHamburger.Size = new System.Drawing.Size(460, 106);
             this.groupBoxHamburger.TabIndex = 5;
@@ -455,7 +464,6 @@
             this.radioButtonMeizhizhi.Name = "radioButtonMeizhizhi";
             this.radioButtonMeizhizhi.Size = new System.Drawing.Size(71, 16);
             this.radioButtonMeizhizhi.TabIndex = 4;
-            this.radioButtonMeizhizhi.TabStop = true;
             this.radioButtonMeizhizhi.Text = "美汁汁儿";
             this.radioButtonMeizhizhi.UseVisualStyleBackColor = true;
             this.radioButtonMeizhizhi.Click += new System.EventHandler(this.RadioButtonMeizhizhi_Click);
@@ -468,7 +476,6 @@
             this.radioButtonCucumber.Name = "radioButtonCucumber";
             this.radioButtonCucumber.Size = new System.Drawing.Size(71, 16);
             this.radioButtonCucumber.TabIndex = 3;
-            this.radioButtonCucumber.TabStop = true;
             this.radioButtonCucumber.Text = "黄瓜丝儿";
             this.radioButtonCucumber.UseVisualStyleBackColor = true;
             this.radioButtonCucumber.Click += new System.EventHandler(this.RadioButtonCucumber_Click);
@@ -481,7 +488,6 @@
             this.radioButtonPickledTofu.Name = "radioButtonPickledTofu";
             this.radioButtonPickledTofu.Size = new System.Drawing.Size(47, 16);
             this.radioButtonPickledTofu.TabIndex = 2;
-            this.radioButtonPickledTofu.TabStop = true;
             this.radioButtonPickledTofu.Text = "腐乳";
             this.radioButtonPickledTofu.UseVisualStyleBackColor = true;
             this.radioButtonPickledTofu.Click += new System.EventHandler(this.RadioButtonPickledTofu_Click);
@@ -494,7 +500,6 @@
             this.radioButtonStinkyTofu.Name = "radioButtonStinkyTofu";
             this.radioButtonStinkyTofu.Size = new System.Drawing.Size(59, 16);
             this.radioButtonStinkyTofu.TabIndex = 1;
-            this.radioButtonStinkyTofu.TabStop = true;
             this.radioButtonStinkyTofu.Text = "臭豆腐";
             this.radioButtonStinkyTofu.UseVisualStyleBackColor = true;
             this.radioButtonStinkyTofu.Click += new System.EventHandler(this.RadioButtonStinkyTofu_Click);
@@ -503,7 +508,7 @@
             // 
             this.groupBoxControl.Controls.Add(this.labelEmm);
             this.groupBoxControl.Controls.Add(this.buttonStop);
-            this.groupBoxControl.Location = new System.Drawing.Point(342, 387);
+            this.groupBoxControl.Location = new System.Drawing.Point(12, 387);
             this.groupBoxControl.Name = "groupBoxControl";
             this.groupBoxControl.Size = new System.Drawing.Size(460, 60);
             this.groupBoxControl.TabIndex = 6;
@@ -530,123 +535,9 @@
             this.buttonStop.UseVisualStyleBackColor = true;
             this.buttonStop.Click += new System.EventHandler(this.ButtonStop_Click);
             // 
-            // groupBox1
-            // 
-            this.groupBox1.Controls.Add(this.groupBoxCopyright);
-            this.groupBox1.Controls.Add(this.groupBoxMaterial);
-            this.groupBox1.Controls.Add(this.groupBoxDeveloper);
-            this.groupBox1.Location = new System.Drawing.Point(12, 28);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(324, 574);
-            this.groupBox1.TabIndex = 3;
-            this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "制作组(Staff)";
-            // 
-            // groupBoxCopyright
-            // 
-            this.groupBoxCopyright.Controls.Add(this.labelCopyright);
-            this.groupBoxCopyright.Location = new System.Drawing.Point(6, 336);
-            this.groupBoxCopyright.Name = "groupBoxCopyright";
-            this.groupBoxCopyright.Size = new System.Drawing.Size(312, 232);
-            this.groupBoxCopyright.TabIndex = 4;
-            this.groupBoxCopyright.TabStop = false;
-            this.groupBoxCopyright.Text = "版权声明信息";
-            // 
-            // labelCopyright
-            // 
-            this.labelCopyright.Font = new System.Drawing.Font("微软雅黑", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.labelCopyright.Location = new System.Drawing.Point(6, 17);
-            this.labelCopyright.Name = "labelCopyright";
-            this.labelCopyright.Size = new System.Drawing.Size(300, 212);
-            this.labelCopyright.TabIndex = 4;
-            this.labelCopyright.Text = "声音素材版权归 @我是内存条 所有。\r\n原声版权为 @心酸老八(不忘初心) 所有。\r\n程序开发版权归作者 @热血码农ZL 所有。\r\n\r\n本程序是我个人兴趣爱好开发" +
-    "，程序内不包含任何病毒代码，请放心使用。如果您对程序有什么建议或者意见欢迎向我反馈!!\r\n\r\n本程序永久免费，转载使用请注明来源。\r\n在此感谢您的使用 *^_^" +
-    "* !!";
-            // 
-            // groupBoxMaterial
-            // 
-            this.groupBoxMaterial.Controls.Add(this.pictureBoxMaterialimg2);
-            this.groupBoxMaterial.Controls.Add(this.labelMaterialTxt2);
-            this.groupBoxMaterial.Controls.Add(this.pictureBoxMaterialimg1);
-            this.groupBoxMaterial.Controls.Add(this.labelMaterialTxt1);
-            this.groupBoxMaterial.Location = new System.Drawing.Point(6, 136);
-            this.groupBoxMaterial.Name = "groupBoxMaterial";
-            this.groupBoxMaterial.Size = new System.Drawing.Size(312, 194);
-            this.groupBoxMaterial.TabIndex = 3;
-            this.groupBoxMaterial.TabStop = false;
-            this.groupBoxMaterial.Text = "素材来源信息";
-            // 
-            // pictureBoxMaterialimg2
-            // 
-            this.pictureBoxMaterialimg2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBoxMaterialimg2.Image = global::老八语音包工具.ResourceApp.我是内存条;
-            this.pictureBoxMaterialimg2.Location = new System.Drawing.Point(6, 106);
-            this.pictureBoxMaterialimg2.Name = "pictureBoxMaterialimg2";
-            this.pictureBoxMaterialimg2.Size = new System.Drawing.Size(80, 80);
-            this.pictureBoxMaterialimg2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBoxMaterialimg2.TabIndex = 3;
-            this.pictureBoxMaterialimg2.TabStop = false;
-            // 
-            // labelMaterialTxt2
-            // 
-            this.labelMaterialTxt2.Location = new System.Drawing.Point(92, 106);
-            this.labelMaterialTxt2.Name = "labelMaterialTxt2";
-            this.labelMaterialTxt2.Size = new System.Drawing.Size(214, 80);
-            this.labelMaterialTxt2.TabIndex = 2;
-            this.labelMaterialTxt2.Text = "声音素材来源：@我是内存条\r\n\r\n抖音/B站：@我是内存条";
-            // 
-            // pictureBoxMaterialimg1
-            // 
-            this.pictureBoxMaterialimg1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBoxMaterialimg1.Image = global::老八语音包工具.ResourceApp.老八;
-            this.pictureBoxMaterialimg1.Location = new System.Drawing.Point(6, 20);
-            this.pictureBoxMaterialimg1.Name = "pictureBoxMaterialimg1";
-            this.pictureBoxMaterialimg1.Size = new System.Drawing.Size(80, 80);
-            this.pictureBoxMaterialimg1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBoxMaterialimg1.TabIndex = 1;
-            this.pictureBoxMaterialimg1.TabStop = false;
-            // 
-            // labelMaterialTxt1
-            // 
-            this.labelMaterialTxt1.Location = new System.Drawing.Point(92, 20);
-            this.labelMaterialTxt1.Name = "labelMaterialTxt1";
-            this.labelMaterialTxt1.Size = new System.Drawing.Size(214, 80);
-            this.labelMaterialTxt1.TabIndex = 0;
-            this.labelMaterialTxt1.Text = "原声Voice：@老八\r\n\r\n抖音：@心酸老八(不忘初心)";
-            // 
-            // groupBoxDeveloper
-            // 
-            this.groupBoxDeveloper.Controls.Add(this.pictureBox2);
-            this.groupBoxDeveloper.Controls.Add(this.labelDeveloper);
-            this.groupBoxDeveloper.Location = new System.Drawing.Point(6, 20);
-            this.groupBoxDeveloper.Name = "groupBoxDeveloper";
-            this.groupBoxDeveloper.Size = new System.Drawing.Size(312, 110);
-            this.groupBoxDeveloper.TabIndex = 2;
-            this.groupBoxDeveloper.TabStop = false;
-            this.groupBoxDeveloper.Text = "开发者信息";
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox2.Image = global::老八语音包工具.ResourceApp.MeTitle;
-            this.pictureBox2.Location = new System.Drawing.Point(6, 20);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(80, 80);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox2.TabIndex = 1;
-            this.pictureBox2.TabStop = false;
-            // 
-            // labelDeveloper
-            // 
-            this.labelDeveloper.Location = new System.Drawing.Point(92, 20);
-            this.labelDeveloper.Name = "labelDeveloper";
-            this.labelDeveloper.Size = new System.Drawing.Size(214, 80);
-            this.labelDeveloper.TabIndex = 0;
-            this.labelDeveloper.Text = "开发者：@热血码农ZL\r\n\r\n联系QQ/WeChat：2213407066\r\n\r\n抖音/B站：@炎凉立夏";
-            // 
             // labelHR
             // 
-            this.labelHR.Location = new System.Drawing.Point(342, 361);
+            this.labelHR.Location = new System.Drawing.Point(10, 361);
             this.labelHR.Name = "labelHR";
             this.labelHR.Size = new System.Drawing.Size(460, 23);
             this.labelHR.TabIndex = 4;
@@ -656,53 +547,146 @@
             // statusStripTip
             // 
             this.statusStripTip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.toolStripStatusLabelTip2});
-            this.statusStripTip.Location = new System.Drawing.Point(0, 609);
+            this.toolStripStatusLabelTip});
+            this.statusStripTip.Location = new System.Drawing.Point(0, 454);
             this.statusStripTip.Name = "statusStripTip";
-            this.statusStripTip.Size = new System.Drawing.Size(814, 22);
+            this.statusStripTip.Size = new System.Drawing.Size(754, 22);
             this.statusStripTip.TabIndex = 5;
             this.statusStripTip.Text = "statusStrip1";
+            // 
+            // toolStripStatusLabelTip
+            // 
+            this.toolStripStatusLabelTip.BackColor = System.Drawing.Color.Transparent;
+            this.toolStripStatusLabelTip.IsLink = true;
+            this.toolStripStatusLabelTip.Name = "toolStripStatusLabelTip";
+            this.toolStripStatusLabelTip.Size = new System.Drawing.Size(428, 17);
+            this.toolStripStatusLabelTip.Text = "欢迎您使用本程序!! 使用过程中遇到问题或有什么建议请联系开发者获取帮助。";
             // 
             // toolStripStatusLabelTip2
             // 
             this.toolStripStatusLabelTip2.Name = "toolStripStatusLabelTip2";
-            this.toolStripStatusLabelTip2.Size = new System.Drawing.Size(799, 17);
+            this.toolStripStatusLabelTip2.Size = new System.Drawing.Size(739, 17);
             this.toolStripStatusLabelTip2.Spring = true;
             this.toolStripStatusLabelTip2.Text = "感谢您使用本程序! 祝您使用愉快!!";
             this.toolStripStatusLabelTip2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // groupBoxHelp
+            // groupBoxVideo
             // 
-            this.groupBoxHelp.Controls.Add(this.label1);
-            this.groupBoxHelp.Location = new System.Drawing.Point(342, 453);
-            this.groupBoxHelp.Name = "groupBoxHelp";
-            this.groupBoxHelp.Size = new System.Drawing.Size(460, 149);
-            this.groupBoxHelp.TabIndex = 6;
-            this.groupBoxHelp.TabStop = false;
-            this.groupBoxHelp.Text = "使用说明";
+            this.groupBoxVideo.Controls.Add(this.groupBoxVideoTip);
+            this.groupBoxVideo.Controls.Add(this.buttonFilePathShow);
+            this.groupBoxVideo.Controls.Add(this.buttonVideo4);
+            this.groupBoxVideo.Controls.Add(this.buttonVideo3);
+            this.groupBoxVideo.Controls.Add(this.buttonVideo2);
+            this.groupBoxVideo.Controls.Add(this.buttonVideo1);
+            this.groupBoxVideo.Location = new System.Drawing.Point(478, 28);
+            this.groupBoxVideo.Name = "groupBoxVideo";
+            this.groupBoxVideo.Size = new System.Drawing.Size(265, 419);
+            this.groupBoxVideo.TabIndex = 8;
+            this.groupBoxVideo.TabStop = false;
+            this.groupBoxVideo.Text = "老八原版系列视频播放";
             // 
-            // label1
+            // buttonVideo4
             // 
-            this.label1.Font = new System.Drawing.Font("微软雅黑", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label1.Location = new System.Drawing.Point(6, 17);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(448, 123);
-            this.label1.TabIndex = 4;
-            this.label1.Text = "* 点击相关按钮播放音频 (连续点击会有不一样的感觉！)\r\n* 点击停止播放可以... (这个就不用介绍了，你懂的。)\r\n\r\n键盘按键说明：\r\n空格键播放焦点与按" +
-    "钮选中的音频。上下左右键切换音频。Tab键切换分类区域。\r\n\r\n更多有趣的功能敬请期待后续的版本更新。。。";
+            this.buttonVideo4.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.buttonVideo4.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.buttonVideo4.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.buttonVideo4.Location = new System.Drawing.Point(7, 109);
+            this.buttonVideo4.Name = "buttonVideo4";
+            this.buttonVideo4.Size = new System.Drawing.Size(250, 25);
+            this.buttonVideo4.TabIndex = 3;
+            this.buttonVideo4.Text = "【老八鞭炮崩睾丸】原版视频";
+            this.buttonVideo4.UseVisualStyleBackColor = false;
+            this.buttonVideo4.Click += new System.EventHandler(this.ButtonVideo4_Click);
             // 
-            // toolStripMain
+            // buttonVideo3
             // 
-            this.toolStripMain.BackColor = System.Drawing.Color.Transparent;
-            this.toolStripMain.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.toolStripButtonTop,
-            this.toolStripSeparator1,
-            this.toolStripButton1});
-            this.toolStripMain.Location = new System.Drawing.Point(0, 0);
-            this.toolStripMain.Name = "toolStripMain";
-            this.toolStripMain.Size = new System.Drawing.Size(814, 25);
-            this.toolStripMain.TabIndex = 7;
-            this.toolStripMain.Text = "toolStrip1";
+            this.buttonVideo3.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.buttonVideo3.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.buttonVideo3.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.buttonVideo3.Location = new System.Drawing.Point(7, 78);
+            this.buttonVideo3.Name = "buttonVideo3";
+            this.buttonVideo3.Size = new System.Drawing.Size(250, 25);
+            this.buttonVideo3.TabIndex = 2;
+            this.buttonVideo3.Text = "【老八撤硕三战】原版视频";
+            this.buttonVideo3.UseVisualStyleBackColor = false;
+            this.buttonVideo3.Click += new System.EventHandler(this.ButtonVideo3_Click);
+            // 
+            // buttonVideo2
+            // 
+            this.buttonVideo2.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.buttonVideo2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.buttonVideo2.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.buttonVideo2.Location = new System.Drawing.Point(7, 47);
+            this.buttonVideo2.Name = "buttonVideo2";
+            this.buttonVideo2.Size = new System.Drawing.Size(250, 25);
+            this.buttonVideo2.TabIndex = 1;
+            this.buttonVideo2.Text = "【老八撤硕二战】原版视频";
+            this.buttonVideo2.UseVisualStyleBackColor = false;
+            this.buttonVideo2.Click += new System.EventHandler(this.ButtonVideo2_Click);
+            // 
+            // buttonVideo1
+            // 
+            this.buttonVideo1.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.buttonVideo1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.buttonVideo1.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.buttonVideo1.Location = new System.Drawing.Point(7, 16);
+            this.buttonVideo1.Name = "buttonVideo1";
+            this.buttonVideo1.Size = new System.Drawing.Size(250, 25);
+            this.buttonVideo1.TabIndex = 0;
+            this.buttonVideo1.Text = "【老八撤硕一战】原版视频";
+            this.buttonVideo1.UseVisualStyleBackColor = false;
+            this.buttonVideo1.Click += new System.EventHandler(this.ButtonVideo1_Click);
+            // 
+            // toolStripDropDownButton1
+            // 
+            this.toolStripDropDownButton1.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
+            this.toolStripDropDownButton1.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolStripDropDownButton1.Name = "toolStripDropDownButton1";
+            this.toolStripDropDownButton1.Size = new System.Drawing.Size(84, 22);
+            this.toolStripDropDownButton1.Text = "程序功能(&T)";
+            this.toolStripDropDownButton1.ToolTipText = "程序功能";
+            // 
+            // 退出ToolStripMenuItem1
+            // 
+            this.退出ToolStripMenuItem1.Name = "退出ToolStripMenuItem1";
+            this.退出ToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
+            this.退出ToolStripMenuItem1.Text = "退出";
+            // 
+            // toolStripSeparator5
+            // 
+            this.toolStripSeparator5.Name = "toolStripSeparator5";
+            this.toolStripSeparator5.Size = new System.Drawing.Size(6, 25);
+            // 
+            // toolStripButton2
+            // 
+            this.toolStripButton2.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolStripButton2.Name = "toolStripButton2";
+            this.toolStripButton2.Size = new System.Drawing.Size(77, 22);
+            this.toolStripButton2.Text = "使用说明(&H)";
+            // 
+            // toolStripSeparator6
+            // 
+            this.toolStripSeparator6.Name = "toolStripSeparator6";
+            this.toolStripSeparator6.Size = new System.Drawing.Size(6, 25);
+            // 
+            // toolStripButton3
+            // 
+            this.toolStripButton3.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolStripButton3.Name = "toolStripButton3";
+            this.toolStripButton3.Size = new System.Drawing.Size(74, 22);
+            this.toolStripButton3.Text = "更新日志(&L)";
+            // 
+            // toolStripSeparator7
+            // 
+            this.toolStripSeparator7.Name = "toolStripSeparator7";
+            this.toolStripSeparator7.Size = new System.Drawing.Size(6, 25);
+            // 
+            // toolStripButton4
+            // 
+            this.toolStripButton4.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolStripButton4.Name = "toolStripButton4";
+            this.toolStripButton4.Size = new System.Drawing.Size(76, 22);
+            this.toolStripButton4.Text = "关于程序(&A)";
             // 
             // toolStripButtonTop
             // 
@@ -723,8 +707,6 @@
             // toolStripButton1
             // 
             this.toolStripButton1.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
-            this.toolStripButton1.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.退出ToolStripMenuItem});
             this.toolStripButton1.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton1.Image")));
             this.toolStripButton1.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripButton1.Name = "toolStripButton1";
@@ -732,24 +714,190 @@
             this.toolStripButton1.Text = "程序功能(&T)";
             this.toolStripButton1.ToolTipText = "程序功能";
             // 
+            // toolStripSeparator2
+            // 
+            this.toolStripSeparator2.Name = "toolStripSeparator2";
+            this.toolStripSeparator2.Size = new System.Drawing.Size(6, 25);
+            // 
+            // toolStripButtonHelp
+            // 
+            this.toolStripButtonHelp.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolStripButtonHelp.Name = "toolStripButtonHelp";
+            this.toolStripButtonHelp.Size = new System.Drawing.Size(77, 22);
+            this.toolStripButtonHelp.Text = "使用说明(&H)";
+            this.toolStripButtonHelp.Click += new System.EventHandler(this.ToolStripButtonHelp_Click);
+            // 
+            // toolStripSeparator3
+            // 
+            this.toolStripSeparator3.Name = "toolStripSeparator3";
+            this.toolStripSeparator3.Size = new System.Drawing.Size(6, 25);
+            // 
+            // toolStripButtonUpdateLog
+            // 
+            this.toolStripButtonUpdateLog.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolStripButtonUpdateLog.Name = "toolStripButtonUpdateLog";
+            this.toolStripButtonUpdateLog.Size = new System.Drawing.Size(74, 22);
+            this.toolStripButtonUpdateLog.Text = "更新日志(&L)";
+            this.toolStripButtonUpdateLog.Click += new System.EventHandler(this.ToolStripButtonUpdateLog_Click);
+            // 
+            // toolStripSeparator4
+            // 
+            this.toolStripSeparator4.Name = "toolStripSeparator4";
+            this.toolStripSeparator4.Size = new System.Drawing.Size(6, 25);
+            // 
+            // toolStripButtonAbout
+            // 
+            this.toolStripButtonAbout.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolStripButtonAbout.Name = "toolStripButtonAbout";
+            this.toolStripButtonAbout.Size = new System.Drawing.Size(76, 22);
+            this.toolStripButtonAbout.Text = "关于程序(&A)";
+            this.toolStripButtonAbout.Click += new System.EventHandler(this.ToolStripButtonAbout_Click);
+            // 
+            // toolStripMain
+            // 
+            this.toolStripMain.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.toolStripButtonMain1,
+            this.toolStripSeparatorMain1,
+            this.toolStripButtonMain2,
+            this.toolStripSeparatorMain2,
+            this.toolStripButtonMain3,
+            this.toolStripSeparatorMain3,
+            this.toolStripButtonMain4,
+            this.toolStripSeparatorMain4,
+            this.toolStripButtonMainTop,
+            this.toolStripSeparatorMain5});
+            this.toolStripMain.Location = new System.Drawing.Point(0, 0);
+            this.toolStripMain.Name = "toolStripMain";
+            this.toolStripMain.Size = new System.Drawing.Size(754, 25);
+            this.toolStripMain.TabIndex = 9;
+            this.toolStripMain.Text = "toolStrip1";
+            // 
+            // toolStripButtonMain1
+            // 
+            this.toolStripButtonMain1.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
+            this.toolStripButtonMain1.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.退出ToolStripMenuItem});
+            this.toolStripButtonMain1.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButtonMain1.Image")));
+            this.toolStripButtonMain1.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolStripButtonMain1.Name = "toolStripButtonMain1";
+            this.toolStripButtonMain1.Size = new System.Drawing.Size(84, 22);
+            this.toolStripButtonMain1.Text = "程序功能(&T)";
+            // 
             // 退出ToolStripMenuItem
             // 
             this.退出ToolStripMenuItem.Name = "退出ToolStripMenuItem";
-            this.退出ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.退出ToolStripMenuItem.Size = new System.Drawing.Size(100, 22);
             this.退出ToolStripMenuItem.Text = "退出";
             this.退出ToolStripMenuItem.Click += new System.EventHandler(this.退出ToolStripMenuItem_Click);
+            // 
+            // toolStripSeparatorMain1
+            // 
+            this.toolStripSeparatorMain1.Name = "toolStripSeparatorMain1";
+            this.toolStripSeparatorMain1.Size = new System.Drawing.Size(6, 25);
+            // 
+            // toolStripButtonMain2
+            // 
+            this.toolStripButtonMain2.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
+            this.toolStripButtonMain2.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButtonMain2.Image")));
+            this.toolStripButtonMain2.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolStripButtonMain2.Name = "toolStripButtonMain2";
+            this.toolStripButtonMain2.Size = new System.Drawing.Size(77, 22);
+            this.toolStripButtonMain2.Text = "使用说明(&H)";
+            this.toolStripButtonMain2.Click += new System.EventHandler(this.ToolStripButtonHelp_Click);
+            // 
+            // toolStripSeparatorMain2
+            // 
+            this.toolStripSeparatorMain2.Name = "toolStripSeparatorMain2";
+            this.toolStripSeparatorMain2.Size = new System.Drawing.Size(6, 25);
+            // 
+            // toolStripButtonMain3
+            // 
+            this.toolStripButtonMain3.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
+            this.toolStripButtonMain3.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButtonMain3.Image")));
+            this.toolStripButtonMain3.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolStripButtonMain3.Name = "toolStripButtonMain3";
+            this.toolStripButtonMain3.Size = new System.Drawing.Size(74, 22);
+            this.toolStripButtonMain3.Text = "更新日志(&L)";
+            this.toolStripButtonMain3.Click += new System.EventHandler(this.ToolStripButtonUpdateLog_Click);
+            // 
+            // toolStripSeparatorMain3
+            // 
+            this.toolStripSeparatorMain3.Name = "toolStripSeparatorMain3";
+            this.toolStripSeparatorMain3.Size = new System.Drawing.Size(6, 25);
+            // 
+            // toolStripButtonMain4
+            // 
+            this.toolStripButtonMain4.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
+            this.toolStripButtonMain4.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButtonMain4.Image")));
+            this.toolStripButtonMain4.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolStripButtonMain4.Name = "toolStripButtonMain4";
+            this.toolStripButtonMain4.Size = new System.Drawing.Size(76, 22);
+            this.toolStripButtonMain4.Text = "关于程序(&A)";
+            this.toolStripButtonMain4.Click += new System.EventHandler(this.ToolStripButtonAbout_Click);
+            // 
+            // toolStripSeparatorMain4
+            // 
+            this.toolStripSeparatorMain4.Name = "toolStripSeparatorMain4";
+            this.toolStripSeparatorMain4.Size = new System.Drawing.Size(6, 25);
+            // 
+            // toolStripButtonMainTop
+            // 
+            this.toolStripButtonMainTop.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right;
+            this.toolStripButtonMainTop.Image = global::老八语音包工具.ResourceApp.置顶;
+            this.toolStripButtonMainTop.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolStripButtonMainTop.Name = "toolStripButtonMainTop";
+            this.toolStripButtonMainTop.Size = new System.Drawing.Size(76, 22);
+            this.toolStripButtonMainTop.Text = "窗口置顶";
+            this.toolStripButtonMainTop.Click += new System.EventHandler(this.ToolStripButtonTop_Click);
+            // 
+            // toolStripSeparatorMain5
+            // 
+            this.toolStripSeparatorMain5.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right;
+            this.toolStripSeparatorMain5.Name = "toolStripSeparatorMain5";
+            this.toolStripSeparatorMain5.Size = new System.Drawing.Size(6, 25);
+            // 
+            // buttonFilePathShow
+            // 
+            this.buttonFilePathShow.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.buttonFilePathShow.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.buttonFilePathShow.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.buttonFilePathShow.Location = new System.Drawing.Point(7, 342);
+            this.buttonFilePathShow.Name = "buttonFilePathShow";
+            this.buttonFilePathShow.Size = new System.Drawing.Size(250, 25);
+            this.buttonFilePathShow.TabIndex = 4;
+            this.buttonFilePathShow.Text = "打开系列视频所在目录";
+            this.buttonFilePathShow.UseVisualStyleBackColor = false;
+            this.buttonFilePathShow.Click += new System.EventHandler(this.ButtonFilePathShow_Click);
+            // 
+            // groupBoxVideoTip
+            // 
+            this.groupBoxVideoTip.Controls.Add(this.labelVideoTip);
+            this.groupBoxVideoTip.Location = new System.Drawing.Point(7, 373);
+            this.groupBoxVideoTip.Name = "groupBoxVideoTip";
+            this.groupBoxVideoTip.Size = new System.Drawing.Size(250, 40);
+            this.groupBoxVideoTip.TabIndex = 5;
+            this.groupBoxVideoTip.TabStop = false;
+            this.groupBoxVideoTip.Text = "视频播放说明";
+            // 
+            // labelVideoTip
+            // 
+            this.labelVideoTip.AutoSize = true;
+            this.labelVideoTip.Location = new System.Drawing.Point(11, 18);
+            this.labelVideoTip.Name = "labelVideoTip";
+            this.labelVideoTip.Size = new System.Drawing.Size(233, 12);
+            this.labelVideoTip.TabIndex = 0;
+            this.labelVideoTip.Text = "默认使用系统指定的默认播放器播放视频。";
             // 
             // FormMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Snow;
-            this.ClientSize = new System.Drawing.Size(814, 631);
+            this.ClientSize = new System.Drawing.Size(754, 476);
             this.Controls.Add(this.toolStripMain);
-            this.Controls.Add(this.groupBoxHelp);
+            this.Controls.Add(this.groupBoxVideo);
             this.Controls.Add(this.statusStripTip);
             this.Controls.Add(this.labelHR);
-            this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.groupBoxControl);
             this.Controls.Add(this.groupBoxHamburger);
             this.Controls.Add(this.groupBoxToilet);
@@ -757,7 +905,7 @@
             this.MaximizeBox = false;
             this.Name = "FormMain";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "老八语音包工具 (Old Eight Voice Tools) ---- 版本：v1.0";
+            this.Text = "老八语音包工具 (Old Eight Voice Tools) ---- 版本：v2.0 梅开二度版";
             this.Load += new System.EventHandler(this.FormMain_Load);
             this.groupBoxToilet.ResumeLayout(false);
             this.groupBoxToilet.PerformLayout();
@@ -770,18 +918,13 @@
             this.groupBoxHamburger.ResumeLayout(false);
             this.groupBoxHamburger.PerformLayout();
             this.groupBoxControl.ResumeLayout(false);
-            this.groupBox1.ResumeLayout(false);
-            this.groupBoxCopyright.ResumeLayout(false);
-            this.groupBoxMaterial.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxMaterialimg2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxMaterialimg1)).EndInit();
-            this.groupBoxDeveloper.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.statusStripTip.ResumeLayout(false);
             this.statusStripTip.PerformLayout();
-            this.groupBoxHelp.ResumeLayout(false);
+            this.groupBoxVideo.ResumeLayout(false);
             this.toolStripMain.ResumeLayout(false);
             this.toolStripMain.PerformLayout();
+            this.groupBoxVideoTip.ResumeLayout(false);
+            this.groupBoxVideoTip.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -821,28 +964,48 @@
         private System.Windows.Forms.RadioButton radioButtonToiletTwoVoice4;
         private System.Windows.Forms.RadioButton radioButtonToiletOneVoice4;
         private System.Windows.Forms.Button buttonStop;
-        private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.Label labelDeveloper;
-        private System.Windows.Forms.GroupBox groupBoxDeveloper;
-        private System.Windows.Forms.GroupBox groupBoxMaterial;
-        private System.Windows.Forms.PictureBox pictureBoxMaterialimg1;
-        private System.Windows.Forms.Label labelMaterialTxt1;
-        private System.Windows.Forms.PictureBox pictureBoxMaterialimg2;
-        private System.Windows.Forms.Label labelMaterialTxt2;
-        private System.Windows.Forms.GroupBox groupBoxCopyright;
-        private System.Windows.Forms.Label labelCopyright;
         private System.Windows.Forms.Label labelHR;
         private System.Windows.Forms.StatusStrip statusStripTip;
         private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabelTip2;
-        private System.Windows.Forms.GroupBox groupBoxHelp;
-        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label labelEmm;
-        private System.Windows.Forms.ToolStrip toolStripMain;
+        private System.Windows.Forms.GroupBox groupBoxVideo;
+        private System.Windows.Forms.Button buttonVideo3;
+        private System.Windows.Forms.Button buttonVideo2;
+        private System.Windows.Forms.Button buttonVideo1;
+        private System.Windows.Forms.Button buttonVideo4;
+        private System.Windows.Forms.ToolStripDropDownButton toolStripDropDownButton1;
+        private System.Windows.Forms.ToolStripMenuItem 退出ToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator5;
+        private System.Windows.Forms.ToolStripButton toolStripButton2;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator6;
+        private System.Windows.Forms.ToolStripButton toolStripButton3;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator7;
+        private System.Windows.Forms.ToolStripButton toolStripButton4;
         private System.Windows.Forms.ToolStripButton toolStripButtonTop;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator1;
         private System.Windows.Forms.ToolStripDropDownButton toolStripButton1;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator2;
+        private System.Windows.Forms.ToolStripButton toolStripButtonHelp;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator3;
+        private System.Windows.Forms.ToolStripButton toolStripButtonUpdateLog;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator4;
+        private System.Windows.Forms.ToolStripButton toolStripButtonAbout;
+        private System.Windows.Forms.ToolStrip toolStripMain;
+        private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabelTip;
+        private System.Windows.Forms.ToolStripDropDownButton toolStripButtonMain1;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparatorMain1;
+        private System.Windows.Forms.ToolStripButton toolStripButtonMain2;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparatorMain2;
+        private System.Windows.Forms.ToolStripButton toolStripButtonMain3;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparatorMain3;
+        private System.Windows.Forms.ToolStripButton toolStripButtonMain4;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparatorMain4;
+        private System.Windows.Forms.ToolStripButton toolStripButtonMainTop;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparatorMain5;
         private System.Windows.Forms.ToolStripMenuItem 退出ToolStripMenuItem;
+        private System.Windows.Forms.Button buttonFilePathShow;
+        private System.Windows.Forms.GroupBox groupBoxVideoTip;
+        private System.Windows.Forms.Label labelVideoTip;
     }
 }
 
